@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games app</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body> 
+    <section class="d-block" id="section">
+<div  class="img-section">
+    <img class="w-100" src="img/wraper.png" alt="">
+</div>
+<div class="nav w-75 m-auto position-relative">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 m-auto rounded-4 ">
+        <div class="container-fluid">
+            <div class="siteName d-flex  align-items-center  ">
+                <img class="img-logo me-2" src="img/logo-sm.png" alt="">
+          <h1 class="navbar-brand text-white" >Game Reviews</h1>
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="w-100 d-flex justify-content-end">
+            <ul id="navClick" class="navbar-nav">
+            <li><a id="mmorpg" class="text-white nav-link active text-color" href="#">mmorpg</a></li>
+            <li><a id="shooter" class="nav-link text-white" href="#">shooter</a></li>
+            <li><a id="sailing" class="nav-link text-white" href="#">sailing</a></li>
+            <li><a id="permadeath" class="nav-link text-white" href="#">permadeath</a></li>
+            <li><a id="superhero" class="nav-link text-white" href="#">superhero</a></li>
+            <li><a id="pixel" class="nav-link text-white" href="#">pixel</a></li>
+
+            </ul>
+        </div>
+          </div>
+        </div>
+      </nav>
+</div>
+<div class="my-4 clear w-100 "></div>
+
+
+
+<div class="container ">
+    <div id="loading" class="spinner m-auto d-none"></div>
+    <div id="display" class="row g-4">
+        
+        
+    </div>
+</div>
+    </section>
+ 
+<div id="deities" class="deities d-none">
+
+    <div class="container">
+        <div class="tittle d-flex justify-content-between align-items-center py-4">
+            <h3 class="text-white">Details Game</h3>
+            <button id="close" class="btn-close btn-close-white" id="btnClose"></button>
+        </div>
+        <div id="load" class="spinner m-auto d-none"></div>
+
+        <div id="cattt" class="category d-flex justify-content-between">
+            <div class="img-deit">
+                <img id="imgDeit" class="w-100" src="" alt="">
+            </div>
+            <div class="caption-deit">
+                <h3 class="text-white">Title: <span id="titleGame">Tarisland</span></h3>
+                <h6 class="mt-3 text-white">Category: <span id="genreGame" class="blue rounded-3 px-2">MMORPG</span></h6>
+                <h6 class="mt-3 text-white">Platform: <span id="platformGame" class="blue rounded-3 px-2">Windows</span></h6>
+                <h6 class="mt-3 text-white">Status: <span id="statusGame" class="blue rounded-3 px-2">Live</span></h6>
+                <p id="descriptionGame" class="mt-3 text-white">Tarisland is a free-to-play cross-platform MMORPG developed by Level Infinite and Published by Tencent. Available on PC and mobile devices, the game allows players to easily move between both, taking the game with them when they can’t be at their desk. The game is designed to appeal to players of MMOs like World of Warcraft, offering players nine playable classes and 18 specializations. Each class features an extensive talent tree system and can be customized. Players of existing MMOs will be familiar with the standard tank, DPS, and healer lineup, necessary for the game’s classic raid and dungeon system. Explore a vast game world and solve mysteries. Pick up various trades such as gathering, mining, and crafting, and sell your items on the auction house.</p>
+                <a id="linkGame" href="" target="_blank"><button class="btn btn-outline-warning text-white">Show Game</button></a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/joo.js"></script>
+</body>
+</html>

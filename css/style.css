@@ -1,0 +1,99 @@
+body{
+    background-color: #272b30;
+}
+.nav{
+    position: sticky !important;
+    top: 25px;
+    z-index: 1000;
+
+}
+section{
+    background-color: #272b30;
+}
+
+.img-section{
+    width: 100%;
+    height: 215px;
+}
+.img-section img{
+    max-height: 30vh;
+    object-fit: cover;
+}
+.navbar{
+    background-color: rgb(58, 73, 123) !important;
+    height: 60px;
+    position: absolute;
+bottom: 0px;
+top: 0px;
+}
+.img-logo{
+
+    width: 20%;
+}
+.text-color{
+    color: #34a3ed !important;
+}
+.navbar-collapse ul li a{
+    transition: all 0.5s;
+}
+.navbar-collapse ul li a:hover{
+
+    color: #34a3ed !important;
+}
+.layer{
+    border: rgb(34, 32, 32) 1px solid;
+    transition: all 0.5s;
+}
+.btn-primary{
+    width: 45px !important;
+    height: 25px !important;
+}
+.loggo{
+    width: 70px;
+    height: 18px;
+    background-color:#32383e ;
+    color: white;
+    font-size: x-small;
+    
+}
+.clear{
+    height: 40px;
+}
+.deities{
+    width: 100%;
+    height: 100vh;
+background-color: #272b30;}
+.img-deit{
+    width: 32%;
+}
+.caption-deit{
+    width: 66%;
+}
+.blue{
+    background-color:RGBA(13, 202, 240) ;
+    color: #000;
+}
+.layer:hover{
+   margin: 0 !important;
+}
+.description{
+
+    height: 150px;
+}
+
+.spinner {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: radial-gradient(farthest-side,#474bff 94%,#0000) top/9px 9px no-repeat,
+           conic-gradient(#0000 30%,#474bff);
+    -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0);
+    animation: spinner-c7wet2 1s infinite linear;
+ }
+ 
+ @keyframes spinner-c7wet2 {
+    100% {
+       transform: rotate(1turn);
+    }
+ }
+
